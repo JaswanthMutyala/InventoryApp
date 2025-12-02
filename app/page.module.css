@@ -1,0 +1,134 @@
+.page {
+  display: flex;
+  min-height: calc(100vh - 80px);
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  max-width: 900px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.intro h1 {
+  max-width: 500px;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.intro p {
+  max-width: 500px;
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: #64748b;
+}
+
+.intro a {
+  font-weight: 600;
+  color: #3b82f6;
+  transition: color 0.2s ease;
+}
+
+.intro a:hover {
+  color: #1e40af;
+}
+
+.ctas {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 400px;
+  gap: 1rem;
+  font-size: 0.875rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ctas a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+  padding: 0 1.25rem;
+  border-radius: 0.75rem;
+  border: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  width: fit-content;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+a.primary {
+  background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
+  color: white;
+  gap: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgb(59 130 246 / 0.3);
+}
+
+a.primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgb(59 130 246 / 0.4);
+}
+
+a.secondary {
+  border: 1.5px solid #e2e8f0;
+  color: #1e293b;
+  background: white;
+}
+
+a.secondary:hover {
+  border-color: #3b82f6;
+  background: #f0f9ff;
+  color: #1e40af;
+}
+
+@media (max-width: 640px) {
+  .main {
+    padding: 2rem 1.5rem;
+  }
+
+  .intro {
+    gap: 1rem;
+  }
+
+  .intro h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  .intro p {
+    font-size: 1rem;
+  }
+
+  .ctas {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .ctas a {
+    width: 100%;
+  }
+}

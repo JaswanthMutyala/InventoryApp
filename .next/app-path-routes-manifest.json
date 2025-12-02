@@ -1,0 +1,22 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/access-logs/page": "/access-logs",
+  "/admin/page": "/admin",
+  "/api/access-logs/route": "/api/access-logs",
+  "/api/admin/clear-data/route": "/api/admin/clear-data",
+  "/api/auth/route": "/api/auth",
+  "/api/products/[id]/route": "/api/products/[id]",
+  "/api/products/route": "/api/products",
+  "/api/transactions/outstanding/route": "/api/transactions/outstanding",
+  "/api/transactions/route": "/api/transactions",
+  "/api/users/add/route": "/api/users/add",
+  "/api/users/route": "/api/users",
+  "/favicon.ico/route": "/favicon.ico",
+  "/history/page": "/history",
+  "/inventory/page": "/inventory",
+  "/login/page": "/login",
+  "/members/page": "/members",
+  "/page": "/",
+  "/transactions/page": "/transactions"
+}
